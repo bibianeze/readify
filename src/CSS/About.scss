@@ -1,0 +1,128 @@
+.cc-about-img {
+  width: 100%;
+  img {
+    width: 495px;
+    height: 70vh;
+    // margin-top: 3rem;
+    // margin-bottom: 3rem;
+    margin-left: 5rem;
+    // height: auto;
+  }
+}
+
+.cc-about-container {
+  display: flex;
+  justify-content: center;
+  // align-items: center;
+  // text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  width: 100%;
+
+  .cc-text {
+    padding: rem;
+    text-align: left;
+    width: 100%;
+  }
+  h2 {
+    text-align: center;
+  }
+  p {
+    line-height: 2rem;
+    color: hsl(210, 22%, 49%);
+  }
+}
+.Underline {
+  background-color: #ab7a5f;
+  margin-inline: auto;
+  margin-bottom: 2rem;
+  height: 0.2rem;
+  width: 8rem;
+}
+
+@media screen and (width <= 1024px) {
+  .cc-about-container {
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    // text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    width: 100%;
+    gap: 3rem;
+
+    .cc-text {
+      padding: rem;
+      text-align: left;
+      width: 100%;
+    }
+    h2 {
+      text-align: center;
+    }
+    p {
+      line-height: 0.5rem;
+      color: hsl(210, 22%, 49%);
+    }
+  }
+  .cc-about-img {
+    width: 100%;
+    img {
+      width: 495px;
+      height: 70vh;
+      // margin-top: 3rem;
+      // margin-bottom: 3rem;
+      margin-left: 0;
+      // height: auto;
+    }
+  }
+}
+
+@media screen and (width <= 768px) {
+  .cc-about-container {
+    // display: flex;
+    // justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    // text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    // padding: 2rem;
+    width: 100%;
+
+    .cc-text {
+      padding: rem;
+      text-align: left;
+      width: 100%;
+    }
+    h2 {
+      text-align: center;
+      // margin-left: 2rem;
+    }
+    p {
+      line-height: 2rem;
+      color: hsl(210, 22%, 49%);
+    }
+  }
+  .cc-about-img img {
+    width: 100%;
+  }
+}
+
+@media screen and (width <= 500px) {
+  .cc-about-img {
+    width: 100%;
+    img {
+      width: 305px;
+      height: 40vh;
+      // margin-top: 3rem;
+      // margin-bottom: 3rem;
+      margin-left: 0.5rem;
+      // height: auto;
+    }
+  }
+  p {
+    text-align: start;
+  }
+}

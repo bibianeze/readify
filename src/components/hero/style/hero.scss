@@ -1,0 +1,42 @@
+.cc-section {
+    gap: 10rem;
+    align-items: center;
+    height: 40rem;
+    .cc-text-content {
+        flex: 1;
+        p{
+            line-height: 2rem;
+            font-size: 20px;
+        }
+    }
+
+    .cc-hero-img {
+        display: flex;
+        justify-content: flex-end;
+        flex: 1;
+
+        .cc-wrapper {
+            // border: 1px solid red;
+            position: relative;
+
+            .cc-hero-img-1 {
+                width: 350px;
+                img {
+                    width: 100%;
+                }
+            }
+
+            .cc-hero-img-2 {
+                width: 260px;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                transform: translate(-7rem, 0rem);
+                // border: 1px solid red;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

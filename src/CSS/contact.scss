@@ -1,0 +1,56 @@
+.cc-button{
+    background-color: #ab7a5f;
+}
+.cc-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    // width: 40%;
+    // margin-left: 20rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    // margin-bottom: 80rem;
+    .cc-name{
+        margin-bottom: 1.2rem;
+    }
+    .cc-button{
+        width: 10rem;
+        margin-top: 2rem;
+    }
+}
+textarea{
+    height: 30vh;
+    // background-color: hsl(22, 31%, 81%);
+}
+// .cc-bg{
+//     background-color: hsl(22, 31%, 81%);
+// }
+.cc-name{
+    background-color: hsl(22, 31%, 81%) !important;
+    width: 400px !important;
+}
+
+
+.Underline{
+    background-color: #ab7a5f;
+    margin-inline: auto;
+    margin-bottom: 2rem;
+    height: 0.2rem;
+    width: 8rem;
+}
+
+@media screen and (width <= 500px) {
+    .cc-name{
+
+        width: 300px !important;
+    }
+}
+@media screen and (width <= 320px) {
+    .cc-name{
+
+        width: 300px !important;
+    }
+}

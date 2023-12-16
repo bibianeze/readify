@@ -1,0 +1,16 @@
+* {
+    /* reset style */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+.cc-button {
+    background-color: #ab7a5f !important;
+    /* color: #AB7A5F50; */
+}
+
+.cc-text-color {
+    color: #ab7a5f !important;
+}
